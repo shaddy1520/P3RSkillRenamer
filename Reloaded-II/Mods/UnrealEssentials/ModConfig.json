@@ -1,0 +1,86 @@
+{
+  "ModId": "UnrealEssentials",
+  "ModName": "Unreal Essentials",
+  "ModAuthor": "AnimatedSwine37, Rirurin",
+  "ModVersion": "2.0.3",
+  "ModDescription": "Allows other mods to easily replace files inside of paks and utocs in Unreal Engine games",
+  "ModDll": "UnrealEssentials.dll",
+  "ModIcon": "Preview.png",
+  "ModR2RManagedDll32": "x86/UnrealEssentials.dll",
+  "ModR2RManagedDll64": "x64/UnrealEssentials.dll",
+  "ModNativeDll32": "",
+  "ModNativeDll64": "",
+  "Tags": [],
+  "CanUnload": false,
+  "HasExports": false,
+  "IsLibrary": false,
+  "ReleaseMetadataFileName": "UnrealEssentials.ReleaseMetadata.json",
+  "PluginData": {
+    "GitHubRelease": {
+      "UserName": "AnimatedSwine37",
+      "RepositoryName": "UnrealEssentials",
+      "UseReleaseTag": false,
+      "AssetFileName": "Mod.zip"
+    },
+    "GitHubDependencies": {
+      "IdToConfigMap": {
+        "Reloaded.Memory.SigScan.ReloadedII": {
+          "Config": {
+            "UserName": "Reloaded-Project",
+            "RepositoryName": "Reloaded.Memory.SigScan",
+            "UseReleaseTag": false,
+            "AssetFileName": "Mod.zip"
+          },
+          "ReleaseMetadataName": "Reloaded.Memory.SigScan.ReloadedII.ReleaseMetadata.json"
+        },
+        "reloaded.sharedlib.hooks": {
+          "Config": {
+            "UserName": "Sewer56",
+            "RepositoryName": "Reloaded.SharedLib.Hooks.ReloadedII",
+            "UseReleaseTag": true,
+            "AssetFileName": "reloaded.sharedlib.hooks.zip"
+          },
+          "ReleaseMetadataName": "Sewer56.Update.ReleaseMetadata.json"
+        },
+        "UTOC.Stream.Emulator": {
+          "Config": {
+            "UserName": "AnimatedSwine37",
+            "RepositoryName": "UnrealEssentials",
+            "UseReleaseTag": false,
+            "AssetFileName": "Mod.zip"
+          },
+          "ReleaseMetadataName": "UTOC.Stream.Emulator.ReleaseMetadata.json"
+        },
+        "reloaded.universal.fileemulationframework": {
+          "Config": {
+            "UserName": "Sewer56",
+            "RepositoryName": "FileEmulationFramework",
+            "UseReleaseTag": false,
+            "AssetFileName": "Mod.zip"
+          },
+          "ReleaseMetadataName": "Reloaded.Universal.FileEmulationFramework.ReleaseMetadata.json"
+        }
+      }
+    },
+    "NuGet": {
+      "AllowUpdateFromAnyRepository": false,
+      "DefaultRepositoryUrls": [
+        "http://packages.sewer56.moe:5000/v3/index.json"
+      ]
+    }
+  },
+  "IsUniversalMod": true,
+  "ModDependencies": [
+    "Reloaded.Memory.SigScan.ReloadedII",
+    "reloaded.sharedlib.hooks",
+    "UTOC.Stream.Emulator"
+  ],
+  "OptionalDependencies": [],
+  "SupportedAppId": [
+    "likeadragonishindemo-win64-shipping.exe",
+    "p3r.exe",
+    "scarletnexus-win64-shipping.exe",
+    "sifu-win64-shipping.exe"
+  ],
+  "ProjectUrl": "https://github.com/AnimatedSwine37/UnrealEssentials"
+}
